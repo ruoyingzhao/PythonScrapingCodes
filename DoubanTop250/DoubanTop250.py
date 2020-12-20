@@ -1,5 +1,7 @@
 import requests, bs4, openpyxl
 
+#getting the 250 top rated films from douban.com and saving the data in an excel file
+
 wb=openpyxl.Workbook()
 sheet=wb.active
 sheet.title='Films'
